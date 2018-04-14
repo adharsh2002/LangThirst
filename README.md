@@ -1,103 +1,80 @@
 # LocalizR!
 
-<img align="right" src="" width="450"/>
+<img align="center" src="https://image.ibb.co/mvnCbn/la_index.png" width="200" height="130"/> :arrow_right:
+<img align="center" src="https://preview.ibb.co/jetcbn/la_languagepage.png" width="200" height="130"/>
 
-Welcome to the repo for our final project at Makers Academy! Our application is an interactive game that takes the user on a language-learning journey.
+### Synopsis
 
-__DESIGNED BY__:
-- Joshua Holloway
-- Hannah Lillis
-- Kaari Strack
-- Magyar-Hunor Tamas
-- Jenny Arenas Marin
+Welcome to my repo for the Makers Academy challenge: FINAL PROJECT WEEK!
+During this time I worked in a small team to design and develop a full-stack web application that takes the user on a language-learning journey.
 
-<hr>
+__Team Members__ :-
+- Joshua Holloway - [GitHub](https://github.com/JoshuaJFHolloway)
+- Hannah Lillis - [GitHub](https://github.com/hannahlillis)
+- Kaari Strack (Me...)
+- Magyar-Hunor Tamas - [GitHub](https://github.com/tamasmagyarhunor88)
+- Jenny Arenas Marin - [GitHub](https://github.com/jennymarin1989)
 
-## Tech Stack
+### Key Focus
 
-<img src="https://image.ibb.co/czRdzx/la_reactnpm.png" width="100" alight="left"/>
+Agile methodologies and XP values.
 
-__Front End__:
-- React
-- CSS (styled components)
+### Stack
 
-__Back End__:
-- Node.js
-- Express.js
-- Mongodb
-- Mongoose
+React, HTML, CSS (inline styled components), Node.js, Express.js, MongoDB, Mongoose, Jest, Enzyme, Cypress.
 
-__TDD__:
-- Jest
-- Enzyme
-- Cypress
+### Implementation
 
-<hr>
-
-## Set-up & Installation :computer:
-
-Open the Terminal (or iTerm) by pressing ⌘ and spacebar.
-
-<img src="https://image.ibb.co/dXVJXH/la_terminal.png" alt="commandspacebar" width="400" align="right"/>
-
-Click [HERE](https://nodejs.org/en/) to download and install node.js if you do not have it.
+1) Clone this repository, and change into the correct directory.
+```
+$ git clone https://github.com/kaaristrack/LocalizR
+$ cd Localizr
+```
+NOTE: Click [HERE](https://nodejs.org/en/) to download and install node.js if you do not have it.
 
 Verify your installation by typing:
 ```
 $ node -v
 ```
-Clone this repo onto your computer:
-```
-$ git clone *copy & paste https or SSH link here*
-```
-Install the required dependencies:
+2) Install the required packages and dependencies.
 ```
 $ npm install
 ```
-Run the server, and begin!
+3) Run the server, and begin!
 ```
 $ npm run start-dev
 ```
 
-<hr>
-
-## User Stories :video_game:
+### User Stories
 
 __Minimum Viable Product__:
 
-- As someone who travels often, so I can learn useful phrases, I want to be able to practice a language.
+- [x] As someone who travels often, so I can learn useful phrases, I want to be able to practice a language using this web application.
 
 __Features__:
 
-- As a user, so I can decide what to practice, I want to be able to select a language.
+- [x] As a user, so I can play the game, I want to be able to enter my details and login.
 
-- As a traveller, so I can learn a language, I want to be able to choose an answer to a question.
+- [x] As a user, so I can decide what to practice, I want to be able to select a language.
 
-- As a user, so I can play the game, I want to be able to enter my details.
+- [x] As a traveller, so I can learn a language, I want to be able to choose an answer to a question.
 
-- As a user, so I can keep track of my progress, I want to be able to see my score.
+- [x] As a user, so I can keep track of my progress, I want to be able to see my score.
 
 __Extras__
 
-- As a user, so I can play the game, I want to be able to sign up.
+- [x] As a user, so I can play the game, I want to be able to sign up for an account.
 
-- As a user, so I can play the game, I want to able to sign in.
+- [x] As a user, so I can enjoy my results, I want to be able to receive feedback at the end of a quiz.
 
-- As a user, so I can enjoy my results, I want to be able to read a comment on how well I did.
+- [x] As a user, so I can keep my account secure and safe, I want to be able to sign out when I am finished.
 
-- As a user, so I can keep my account secure, I want to be able to sign out.
+- [x] As a user, so I can play a spontaneously generated scenario, I want to be able to click a button to chooses a quiz for me at random.
 
-- As a user, so I can play a random scenario, I want to be able to click a button to randomly choose a quiz for me.
+### Expansion
 
-<hr>
-
-## Future Additions
-
-We have two user stories that we were not able to complete in time. Both of which we will look to
-integrate into the project after the completion date (12th April)
+We were unfortunately unable to complete the following user stories within our time constraints:
 
 - As a user, so I can improve my pronunciation, I want to be able to hear example audio.
 
 - As a user, so I can satisfy my competitiveness, I want to see a leaderboard.
-
-- As a user, so I can follow my story, I want to see the outcome of my answer.
