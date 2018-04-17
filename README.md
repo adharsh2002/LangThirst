@@ -78,3 +78,5 @@ We were unfortunately unable to complete the following user stories within our t
 - As a user, so I can improve my pronunciation, I want to be able to hear example audio.
 
 - As a user, so I can satisfy my competitiveness, I want to see a leaderboard.
+
+TDD practices and 100% test coverage are something that we would have liked to maintain throughout our project sprint. Our MVP (on day 3) was fully tested, but we had several key features which we felt were essential requirements - so unfortunately we had to compromise our usual TDD practices to establish the core functionality of our build. We also didn't want to spend time re-testing the React components that we were merely re-using over and over again, e.g. buttons and images - but if we were to revisit the project in the future, or indeed find ourselves in a similar situation again, we would absolutely test to full coverage, and maybe delegate our tasks more efficiently so that we always have at least one testing micro-group.
