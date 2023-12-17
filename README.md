@@ -1,4 +1,4 @@
-# LocalizR!
+# LangThirst!
 
 <img align="center" src="https://image.ibb.co/mvnCbn/la_index.png" width="200" height="130"/> :arrow_right:
 <img align="center" src="https://preview.ibb.co/jetcbn/la_languagepage.png" width="200" height="130"/>
