@@ -4,12 +4,14 @@ import SubHeader from './SubHeader';
 import SubHeadLock from './styledComponents/subHeaderLock.js';
 
 const Headers = () => {
-  return <div>
-      <Header header={"LocalizR"} />
+  return (
+    <div>
+      <Header header={'LangThirst'} />
       <SubHeadLock>
-      <SubHeader subHeader={"Be a traveler, not a tourist!"} />
+        <SubHeader subHeader={'Be a traveler, not a tourist!'} />
       </SubHeadLock>
-    </div>;
+    </div>
+  );
 };
 
 export default Headers;

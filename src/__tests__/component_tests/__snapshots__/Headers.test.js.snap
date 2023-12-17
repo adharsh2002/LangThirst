@@ -35,7 +35,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "header": "LocalizR",
+          "header": "LangThirst",
         },
         "ref": null,
         "rendered": null,

@@ -14,11 +14,7 @@
 /reports
 .idea
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-.env
+
 /src/images
 
 npm-debug.log*

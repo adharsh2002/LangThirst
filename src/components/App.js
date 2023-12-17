@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Headers from './Headers';
 import Auth from '../Auth/Auth.js';
 import ChooseLanguage from './ChooseLanguage';
-import Callback from '../Callback/Callback'
+import Callback from '../Callback/Callback';
 import { Route } from 'react-router-dom';
 import NavButton from './styledComponents/navButtons.js';
 
@@ -15,13 +15,17 @@ const handleAuthentication = (nextState, replace) => {
 };
 
 class App extends Component {
-
   login() {
     auth.login();
-    return (<Route path="/callback" render={(props) => {
-      handleAuthentication(props);
-      return <Callback {...props} />
-    }}/>)
+    return (
+      <Route
+        path="/callback"
+        render={(props) => {
+          handleAuthentication(props);
+          return <Callback {...props} />;
+        }}
+      />
+    );
   }
 
   logout() {
@@ -29,20 +33,18 @@ class App extends Component {
   }
 
   render() {
-
     if (!auth.isAuthenticated()) {
       return (
-      <div>
-        <main>
-          <img src="https://image.ibb.co/jGCwEx/la_logo.png"/>
-          <Headers/>
-          <NavButton onClick={this.login}>
-            <i class="material-icons">airplanemode_active</i>Login
-          </NavButton>
-        </main>
-      </div>
-      )
-
+        <div>
+          <main>
+            <img src="https://image.ibb.co/jGCwEx/la_logo.png" />
+            <Headers />
+            <NavButton onClick={this.login}>
+              <i class="material-icons">airplanemode_active</i>Login
+            </NavButton>
+          </main>
+        </div>
+      );
     } else {
       return (
         <div>
@@ -50,12 +52,12 @@ class App extends Component {
             <NavButton onClick={this.logout}>
               <i class="material-icons">airplanemode_inactive</i>Logout
             </NavButton>
-            <ChooseLanguage/>
+            <ChooseLanguage />
           </main>
         </div>
-      )
+      );
     }
-  };
+  }
 }
 
 export default App;
